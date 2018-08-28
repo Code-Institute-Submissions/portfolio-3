@@ -52,6 +52,7 @@ body {
 }
 
 #profile-image {
+    border-radius: 5px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
@@ -64,7 +65,7 @@ body {
 /* Porftolio -------------------------------------------------------------------------------------- */
 
 #portfolio {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #portfolio-container {
@@ -237,4 +238,93 @@ a {
 .sm-link {
     font-size: 2rem;
     text-align: center;
+}
+
+
+/* MEDIA QUERY PHONE ============================================================================== */
+
+@media only screen and (min-width: 768px) {
+  /* tablet/desktop */
+  
+  .hide-desktop {
+    display: none!important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  
+  /* Navbar -------------------------------------------------------------------------------------- */
+  
+  .hide-mobile {
+    display: none!important;
+  }
+  
+  .about-me-div {
+      padding-top: 2rem;
+      text-align: justify;
+  }
+  
+  .skill-list-mobile {
+      padding-bottom: 1rem;
+      text-align: center;
+  }
+  
+  .skill-header-mobile {
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+  }
+  
+  .info-header {
+      text-align: center;
+  }
+  
+  .research-item {
+      text-align: justify;
+  }
+  
+  #portfolio-container {
+      padding-top: 0rem;
+      height: auto;
+  }
+  
+  .header-col {
+      padding-bottom: 1rem;
+  }
+  
+  .project-col {
+      padding-bottom: 2rem;
+  }
+  
+  #portfolio {
+    min-height: auto;
+}
+  
+  #container-inner {
+      height: auto;
+  }
+  
+  .contact-info-row {
+      text-align: center;
+  }
+  
+  .phone-sm {
+    font-size: 3rem;
+    padding: 0rem 1rem;
+  }
+  
+  #contact {
+      height: auto;
+  }
+  
+  .link-div {
+      font-size: 3rem;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
 }

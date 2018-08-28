@@ -50,6 +50,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="./assets/CV.pdf" download="John McDowell CV"><span>CV</span></a>
+                </li>
+                
             </ul>
         </div>
     </nav>
@@ -58,6 +63,15 @@
     
     <section id="about">
         <div id="profile-container" class="container">
+            
+            <!--PHONE: Profile Image-->
+            <div class="row hide-desktop">
+                <div id="image-col" class="col-sm-4">
+                    <img id="profile-image" src="../images/IMG_2616.jpg"></img>
+                </div>
+            </div>
+
+            
             <div id="profile-row" class="row">
                 
                 <!--Profile Info-->
@@ -65,25 +79,27 @@
                     
                     <!--Line 1-->
                     <div class="row">
-                        <div class="col-sm-1">
+                        <div class="col-sm-1 hide-mobile">
                             <i class="fa fa-user"></i>
                         </div>
-                        <div class="col-sm-11">
+                        <div class="col-sm-11 about-me-div">
                             <span>
                             I am a junior software developer with a background in research, teaching, and customer service. I have a masters degree in music and media technologies. I love working with Python and JavaScript.
                             </span>
                         </div>
                     </div>
                     
+                    <hr class="hide-desktop">
+                    
                     <!--Line 2-->
                     <div class="row">
-                        <div class="col-sm-1">
+                        <div class="col-sm-1 hide-mobile">
                             <i class="fa fa-bookmark"></i>
                         </div>
                         <div class="col-sm-11">
                             
                             <!--My Skills-->
-                            <div class="row">
+                            <div class="row hide-mobile">
                                 <div class="col-sm-12 info-header">
                                     <span>My Skills</span>
                                 </div>
@@ -95,8 +111,24 @@
                                 
                                 
                                 <!--Front End---------------------------------------------------------->
-                                <div class="col-sm-3">
-                                    <div class="skill-category"><strong>FRONT END</strong></div>
+                                <div class="col-sm-12 hide-desktop">
+                                    <div class="row">
+                                        <div class="col-sm-12 skill-header-mobile">
+                                            <strong>FRONT END</strong>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row hide-desktop">
+                                        <div class="col-sm-12 skill-list-mobile">
+                                            HTML, CSS, JavaScript, jQuery, AJAX, Bootstrap.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="col-sm-3 hide-mobile">
+                                    
+                                    <div class="skill-category hide-mobile"><strong>FRONT END</strong></div>
                                     
                                     <div class="row">
                                         <div class="col-sm-12">
@@ -138,7 +170,22 @@
                                 
                                 
                                 <!--Back End----------------------------------------------------------->
-                                <div class="col-sm-3">
+                                
+                                <div class="col-sm-12 hide-desktop">
+                                    <div class="row">
+                                        <div class="col-sm-12 skill-header-mobile">
+                                            <strong>BACK END</strong>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row hide-desktop">
+                                        <div class="col-sm-12 skill-list-mobile">
+                                            Python, Flask, Django, SQL, MongoDB.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-3 hide-mobile">
                                     <div class="skill-category"><strong>BACK END</strong></div>
                                     
                                     <div class="row">
@@ -175,7 +222,22 @@
                                 
                                 
                                 <!--Version Control---------------------------------------------------->
-                                <div class="col-sm-3">
+                                
+                                <div class="col-sm-12 hide-desktop">
+                                    <div class="row">
+                                        <div class="col-sm-12 skill-header-mobile">
+                                            <strong>VERSION CONTROL</strong>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row hide-desktop">
+                                        <div class="col-sm-12 skill-list-mobile">
+                                            Git, Github.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-3 hide-mobile">
                                     <div class="skill-category"><strong>VERSION CONTROL</strong></div>
                                     
                                     <div class="row">
@@ -199,9 +261,11 @@
                         
                     </div>
                     
+                    <hr class="hide-desktop">
+                    
                     <!--Line 3-->
                     <div class="row">
-                        <div class="col-sm-1">
+                        <div class="col-sm-1 hide-mobile">
                             <i class="fa fa-book"></i>
                         </div>
                         <div class="col-sm-11">
@@ -211,18 +275,20 @@
                                 </div>
                             </div>
                             
-                            <div id="top-research-item">
+                            <div id="top-research-item" class="research-item">
                                 <span>My Masters dissertation was of sufficient quality that it lead to a paper which I presented at the “International Conference on New Interfaces for Musical Expression (NIME)”, which took place in the US in June 2018. </span>
                             </div>
                             
-                            <div>
+                            <br class="hide-desktop">
+                            
+                            <div class="research-item">
                                 <span>My undergraduate dissertation received two awards: (i) First prize, Irish National Undergraduate Musicology Competition, and (ii) the Anne Leahy Medal, Conservatory of Music, Dublin Institute of Technology in 2017. </span>
                             </div>
                         </div>
                     </div>
                     
                     <!--Line 4-->
-                    <div class="row">
+                    <div class="row hide-mobile">
                         <div class="col-sm-1">
                             <i class="fa fa-download"></i>
                         </div>
@@ -236,7 +302,7 @@
                 </div>
                 
                 <!--Profile Image-->
-                <div id="image-col" class="col-sm-4">
+                <div id="image-col" class="col-sm-4 hide-mobile">
                     <img id="profile-image" src="../images/IMG_2616.jpg"></img>
                 </div>
             </div>
@@ -464,7 +530,7 @@
     
     <section id="contact">
         
-        <div id="portfolio-container" class="container">
+        <div id="contact-container" class="container">
             <div class="row">
                 <div class="col-sm-12 header-col">
                     <h4>Contact</h4>
@@ -474,7 +540,7 @@
             <div class="row">
                 
                 <!--Contact Form-->
-                <div id="contact-form-div" class="col-sm-7">
+                <div id="contact-form-div" class="col-sm-7 hide-mobile">
                     <div class="container contact-container">
                         
                         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
@@ -530,7 +596,7 @@
                 <div class="col-sm-4 contact-info-col">
                     
                     <!--Email-->
-                    <div class="row contact-info-row">
+                    <div class="row contact-info-row hide-mobile">
                         
                         <div class="col-sm-2">
                             <i class="fa fa-envelope"></i>
@@ -541,9 +607,15 @@
                         </div>
                         
                     </div>
-                    
+                        
+                    <div class="row contact-info-row hide-desktop">
+                        <div class="col-sm-12">
+                            <span><i class="fa fa-envelope"></i> johnmcdowell0801@gmail.com</span>
+                        </div>
+                    </div>
+                                          
                     <!--Phone-->
-                    <div class="row contact-info-row">
+                    <div class="row contact-info-row hide-mobile">
                         
                         <div class="col-sm-2">
                             <i class="fa fa-phone"></i>
@@ -555,10 +627,17 @@
                         
                     </div>
                     
+                    <div class="row contact-info-row hide-desktop">
+                        <div class="col-sm-12">
+                            <span><i class="fa fa-phone"></i> +447503568587</span>
+                        </div>
+                        
+                    </div>
+                    
                     <hr>
                     
                     <!--Social Media Links-->
-                    <div class="row contact-info-row">
+                    <div class="row contact-info-row hide-mobile">
                         
 
                         <div class="col-sm-3 sm-link">
@@ -587,6 +666,29 @@
                         </div>
                         
                     </div>
+                    
+                    <div class="row hide-desktop">
+                        <div class="col-sm-12">
+                            
+                            <a class="phone-sm" href="https://github.com/johnpooch">
+                                <span><i class="fab fa-github"></i></span>
+                            </a>
+                            
+                            <a class="phone-sm" href="https://stackoverflow.com/users/10090648/john-mcdowell">
+                                <span><i class="fab fa-stack-overflow"></i></span>
+                            </a>
+                            
+                            <a class="phone-sm" href="https://www.linkedin.com/in/john-mcdowell-b9882b9b/">
+                                <span><i class="fab fa-linkedin"></i></span>
+                            </a>
+                            
+                            <a class="phone-sm" href="https://www.researchgate.net/profile/John_Mcdowell6">
+                                <span><i class="fab fa-researchgate"></i></span>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
                     
                 </div>
                 
