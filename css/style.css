@@ -287,6 +287,7 @@ a {
   
   #portfolio-container {
       padding-top: 0rem;
+      padding-bottom: 0rem;
       height: auto;
   }
   
@@ -317,6 +318,12 @@ a {
   
   #contact {
       height: auto;
+  }
+  
+  #contact-container {
+    padding-top: 0rem;
+    min-height: auto;
+    padding-bottom: 2rem;
   }
   
   .link-div {
