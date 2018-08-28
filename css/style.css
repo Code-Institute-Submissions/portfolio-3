@@ -1,0 +1,240 @@
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+/* Bootstrap Override ----------------------------------------------------------------------------- */
+
+/* remove to align dropdown list items left */
+.navbar-nav {
+    flex-direction: row;
+}
+/* remove to align dropdown list items left */
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+/* Nav Bar ---------------------------------------------------------------------------------------- */
+
+#nav-bar {
+    padding: 40px 60px;
+    background-color: white;
+}
+
+.my-name {
+    font-size: 1.5rem;
+}
+
+/* Profile ---------------------------------------------------------------------------------------- */
+
+#profile-container {
+    background-color: white;
+    padding-top: 9rem;
+    min-height: 100vh;
+}
+
+.profile-info-col>.row {
+    padding: 1rem 0rem;
+}
+
+.info-header {
+    padding-bottom: 1rem;
+}
+
+#top-research-item {
+    padding-bottom: 1rem;
+}
+
+#profile-image {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.skill-category {
+    padding-bottom: .5rem;
+}
+
+
+/* Porftolio -------------------------------------------------------------------------------------- */
+
+#portfolio-section {
+    height: 100vh;
+}
+
+#portfolio-container {
+    padding-top: 9rem;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+#container-inner {
+    /*background-image: url("../images/background_texture.jpeg");*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);*/
+    /*border-radius: 10px;*/
+    
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+}
+
+.header-col {
+    padding-bottom: 4.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.header-col h4 {
+    font-size: 2.5rem;
+}
+
+.description-div {
+    text-align: justify;
+    line-height: 2;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 5px;    
+}
+
+.project-title {
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
+
+.project-title h6 {
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+/* Overlay ---------------------------------------------------------------------------------------- */
+
+.link-row {
+    display: none;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.link-div {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.link-description-div {
+    text-align: center;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.overlayed {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.project-col:hover .project-image-col {
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.project-col:hover .overlay {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.project-col:hover .link-row {
+  display: flex;
+}
+
+a {
+    color: inherit;
+}
+
+.link-a:hover {
+    text-decoration: none;
+}
+
+/* Contact ---------------------------------------------------------------------------------------- */
+
+.contact-section {
+    height: 100vh;
+}
+
+#contact-container {
+    padding-top: 9rem;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+#contact-form-div {
+}
+
+#contact-form-background {
+    background-image: url("../images/background_texture.jpeg");
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    opacity: .6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
+    
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+}
+
+.contact-input {
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid #00000026 2px;
+    padding: .4rem;
+}
+
+.contact-textarea {
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid #00000026 2px;
+    padding: .4rem;
+}
+
+.contact-container {
+    margin: 0rem 2rem;
+}
+
+.label {
+    padding: 1rem 0rem;
+}
+
+.buttons-col {
+    text-align: center;
+}
+
+.email-button {
+    padding: .7rem 1.3rem;
+    margin: 0rem 2rem;
+    border-radius: 5px;
+}
+
+.contact-info-col {
+    text-align: right;
+}
+
+.contact-info-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sm-link {
+    font-size: 2rem;
+    text-align: center;
+}
