@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a static HTML built to present myself and my personal projects to employers. The page presents information about me, links to my projects, and contact details.
+This is a static HTML built to present myself and my personal projects to employers. The page has information about me, links to my projects, and contact details.
 
 Live version: https://johnpooch.github.io/portfolio/
 
