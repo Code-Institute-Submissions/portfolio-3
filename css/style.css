@@ -141,6 +141,12 @@ body {
     opacity: 1;
 }
 
+.project-col {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .project-col:hover .project-image-col {
     transition: .5s ease;
     opacity: 0;
@@ -329,6 +335,10 @@ a {
   .link-div {
       font-size: 3rem;
   }
+  
+  .description-div {
+    line-height: inherit;
+}
   
 }
 
